@@ -122,7 +122,7 @@
 --		select * from employee_report 
 
 -------9--------
-/*select max(salary) as maximum ,min(salary) as minimum,sum(salary) as sum, avg(salary) as average 
+/*select round(max(salary),0) as maximum ,round(min(salary),0) as minimum,round(sum(salary)) as sum, round(avg(salary)) as average 
 		from employee*/
 
 ---------10---------
